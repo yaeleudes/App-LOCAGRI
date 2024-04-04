@@ -1,3 +1,4 @@
+import 'package:app_locagri/pages/cours.dart';
 import 'package:app_locagri/pages/splash.dart';
 import 'package:flutter/material.dart';
 
