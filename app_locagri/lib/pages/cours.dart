@@ -1,3 +1,4 @@
+import 'package:app_locagri/pages/chapitre.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -70,7 +71,12 @@ class _CoursState extends State<Cours> {
                   style: GoogleFonts.poppins(color: Colors.black),
                 ),
                 trailing: Text(lessons[index].toString()),
-                onTap: (){},
+                onTap: (){
+                  Navigator.push(
+                    context, 
+                    MaterialPageRoute(builder: (context) => const Chapitre())
+                  );
+                },
               ),
             );
           },
